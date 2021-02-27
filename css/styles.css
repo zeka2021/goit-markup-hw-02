@@ -1,6 +1,11 @@
  :root {
     --main-font: font-family: Roboto;
     --secondery-font: Raleway; sans-serif;
+    --accent-color : #2196F3;
+ }
+ .body {
+    font-family: var(--main-font);
+    background-color: white;
  }
  .link {
     text-decoration: none;
@@ -22,7 +27,7 @@
  }
  .navigetion-link:hover,
  .navigetion-link:focus {
-     color: #2196F3;
+     color: var(--accent-color);
  }
  .nav-adr-link {
     font-family: var(--main-font);
@@ -42,11 +47,11 @@
  }
  .nav-adr-link:hover,
  .nav-adr-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
  }
  .nav-tel-link:hover,
  .nav-tel-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
  }
  .logo {
     font-family: var(--secondery-font);
@@ -55,13 +60,19 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3
+    color: var(--accent-color);
  }
  /*======end body========*/
+ .logo-light-theme {
+    color: #212121;
+ }
+ .logo-dark-theme {
+   color:  #FFFFFF; 
+ }
  /*======hero============*/
  .model-btn:hover,
  .model-btn:focus {
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     color:  #FFFFFF;
     cursor: pointer;
  }
@@ -150,3 +161,21 @@
      color: rgba(255, 255, 255, 0.6);
  }
  /*=========endfooter==========*/
+ /*========portfolio==========*/
+   .present-item {
+     font-family: var(--main-font)
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 2;
+     letter-spacing: 0.06em;
+     color: #212121;
+ }
+   .present-text {
+     font-family:var(--main-font)
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.9;
+     letter-spacing: 0.03em;
+     color: #757575;
+ }
+ /*===========endportfolio======*/
