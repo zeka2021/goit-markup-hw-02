@@ -1,7 +1,7 @@
  :root {
     --main-font: font-family: Roboto;
-    --secondery-font: Raleway; sans-serif
-    --accent-color: #2196F3;
+    --secondery-font: Raleway; 
+    --accent-color: #2196F3 ;
  }
  .body {
     font-family: var(--main-font);
@@ -164,18 +164,10 @@
  /*========portfolio==========*/
    .present-item {
      font-family: var(--main-font)
-     font-weight: 700;
-     font-size: 18px;
-     line-height: 2;
-     letter-spacing: 0.06em;
-     color: #212121;
+    
  }
    .present-text {
      font-family:var(--main-font)
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.9;
-     letter-spacing: 0.03em;
-     color: #757575;
+    
  }
  /*===========endportfolio======*/
