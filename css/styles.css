@@ -1,7 +1,7 @@
  :root {
     --main-font: font-family: Roboto;
-    --secondery-font: Raleway; sans-serif;
-    --accent-color : #2196F3;
+    --secondery-font: Raleway; sans-serif
+    --accent-color: #2196F3;
  }
  .body {
     font-family: var(--main-font);
